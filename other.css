@@ -1,0 +1,241 @@
+body{
+	font-size: 20px;
+	color: #585858;
+}
+
+.pinterest{
+	color: #BD081C;
+}
+
+.navbar-light{
+	background-color: #fff;
+	font-size: 15px;
+}
+
+
+
+.muted{
+	color: #BEBEBE;
+}
+
+.form-inline, .form-inline:focus {
+	border-color:#efefef!important;
+	background-color: #efefef!important;
+	-webkit-box-shadow: none!important;
+    -moz-box-shadow: none!important;
+    box-shadow: none!important;
+}
+
+.navbar-nav a:hover{
+    background-color: #efefef !important;
+    border-radius: 25px;
+
+}
+
+.navbar-brand a:hover{
+    background-color: #efefef !important;
+    border-radius: 28px;
+}
+
+.navbar-light .navbar-nav>.active>a,
+.navbar-light .navbar-nav>.active>a:hover,
+.navbar-light .navbar-nav>.active>a:focus{
+	color: #555555 !important; 
+}
+
+.badge{
+	background-color: #BD081C;
+	position: absolute;
+	border-radius: 50%;
+}
+
+#searchbar-form{
+    flex-grow: 1;
+    flex-shrink: 1;
+    min-width: 0 !important;
+
+    position: relative;
+}
+
+#searchicon{
+	position: absolute;
+	left: 10px;
+	z-index: 2;
+}
+
+
+	
+#searchbar{
+  	outline: none;
+  	min-width: 1px;
+  	position: relative;
+  	left: 15px;
+  	min-width: 0 !important;
+  	flex-grow: 1;
+
+}
+
+#account{
+	min-width: 80px !important;
+}
+
+.form-control, .form-control:focus{
+	border-color:#efefef!important;
+	background-color: #efefef!important;
+	-webkit-box-shadow: none!important;
+    -moz-box-shadow: none!important;
+    box-shadow: none!important;
+}
+
+.dropdown-toggle::after {
+    display:none;
+}
+
+.smallfont1s{
+	font-size: 13px;
+
+}
+
+.smallfont2s{
+	font-size: 10px;
+}
+
+.columns{
+        -moz-column-count:2; /* Firefox */
+        -webkit-column-count:2; /* Safari and Chrome */
+        column-count:2;
+}
+
+.smallfont2s a:hover,.smallfont2s a:link,.smallfont2s a:visited,.smallfont2s a:active{
+	text-decoration: none !important;
+	color: #BEBEBE !important;
+	background-color: none !important; 
+}
+
+.smallfont1s a:hover,.smallfont1s a:link,.smallfont1s a:visited,.smallfont1s a:active{
+	text-decoration: none !important;
+	color: #585858 !important;
+	background-color: #fff !important; 
+	font-weight: bold !important;
+}
+
+.pincard{
+	border: none !important;
+	font-weight: bold;
+	font-size: 14px;
+	transition: all 140ms ease-in-out;
+}
+
+
+.pincard:hover, .pincard:visited{
+	background-color: #efefef !important; 
+
+}
+
+.pincard-header, .pincard-footer{
+	position: relative;
+}
+
+.pin-button{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 2;
+	opacity: 0;
+}
+
+.pincard:hover .pin-button{
+	opacity: 1;
+}
+
+.pincard:hover img{
+	filter: brightness(75%);
+}
+
+.red-but{
+	background-color: #BD081C;
+
+	justify-content: center;
+	align-content: center;
+	color: #fff !important;
+	font-size: 14px !important; 
+}
+
+.white-but2{
+	background-color: #fff;
+
+	justify-content: center;
+	align-content: center;
+	color: #585858 !important;
+ 
+}
+
+#add{
+	position: fixed;
+	z-index: 3;
+	bottom: 10px;
+	right: 10px;
+
+}
+
+#lessmenu{
+	z-index: 3;
+	position: absolute;
+
+}
+
+.white-but{
+	background-color: #fff;
+	box-shadow: 0 1px 1px #d6d6d6;
+	justify-content: center;
+	align-content: center;
+	color: #585858 !important;
+	font-size: 12px !important; 
+}
+
+.white-but:hover{
+	background-color: #efefef;
+}
+
+.white-but-icon{
+	width: 40px ;
+	height: 40px ;
+}
+
+.white-but-text{
+	width: 80px;
+}
+
+@media (min-width: 768px) {  
+  .card-columns {column-count: 4;}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+ .card-columns {column-count: 4;}
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+   .card-columns {column-count: 5;} 
+}
+
+@media (min-width: 1444px) {  
+   .card-columns {column-count: 6;} 
+}
+
+#navbar2 {
+    display: none;
+  }
+
+@media screen and (max-width: 375px) {
+  #navbar1 {
+    display: none;
+  }
+  #navbar2 {
+    display: block;
+  }
+}
+
+
+

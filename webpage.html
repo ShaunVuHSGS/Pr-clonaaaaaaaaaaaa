@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>(3) Pinterest</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  	<link rel="stylesheet" type="text/css" href="other.css">
+
+  	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+	<div id="add" class="d-flex flex-column mx-2 text-center justify-content-center">
+		<div class="white-but white-but-icon p-2 m-1 rounded-circle border"><i class="fas fa-plus fa-fw fa-sm"></i></div>
+		<div class="white-but white-but-icon p-2 m-1 rounded-circle border"><i class="fas fa-question"></i></div>
+		<div class="white-but white-but-text px-1 m-1 rounded border" >Privacy Right</div>
+	</div>
+
+	<nav class="navbar navbar-light navbar-expand border-bottom" style="z-index: 4" id="navbar1">
+		<div class="d-flex flex-row" style="width: 100%" >
+			<ul class="navbar-nav ">
+				<li class="nav-item  px-2 "><a class="nav-link" href="webpage.html"><i class="fab fa-pinterest pinterest fa-lg"></i></a></li>
+			</ul>
+			<form class="form-inline rounded flex-grow d-flex flex-row mx-2 px-3 " id="searchbar-form">
+				<i class="fas fa-search fa-lg muted" id="searchicon"></i>
+				<input class="form-control hidden-xs-down" id="searchbar" type="text" name="search" placeholder="Search">
+			</form>
+			<ul class="navbar-nav  ml-auto">
+				<li class="nav-item  px-2 active"><a class="nav-link" href="webpage.html"><strong>Home</strong></a></li>
+				<li class="nav-item  px-2 text-center d-inline-flex flex-row" id="account"><a class="nav-link" href="#">
+					<img class=" img-fluid rounded-circle" src="https://preview.ibb.co/bycPOm/IMG_7433.jpg" alt="IMG_7433" width="23" height="23">
+					<strong>Vũ</strong>
+				</a></li>
+				<li class="nav-item  px-2">
+					<a class="dropdown-toggle nav-link" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<i class="fas fa-bars fa-lg fa-fw muted"></i>
+					</a>
+					<div class="dropdown-menu p-2 dropdown-menu-right" role="menu" aria-labelledby="dropdownMenuLink">
+	    				<div class="columns smallfont1s" style="width: 400px;">
+							<h6 class="dropdown-header ">Home Menu</h6>
+	    					<a class="dropdown-item " href="#">Common</a>
+	    					<a class="dropdown-item " href="#">Everything</a>
+	    					<a class="dropdown-item" href="#">Gift</a>
+	    					<a class="dropdown-item" href="#">Video</a>
+							<a class="dropdown-item" href="#">Technology</a>
+							<a class="dropdown-item" href="#">Travel</a>
+							<a class="dropdown-item" href="#">Education</a>
+							<a class="dropdown-item" href="#">Entertainment</a>
+							<a class="dropdown-item" href="#">Humor</a>
+							<a class="dropdown-item" href="#">Tattoo</a>
+							<a class="dropdown-item" href="#">Science and Nature</a>
+							<a class="dropdown-item" href="#">Architecture</a>
+							<a class="dropdown-item" href="#">Hairstyles and beauty</a>
+							<a class="dropdown-item" href="#">Hippies</a>
+							<a class="dropdown-item" href="#">Garden</a>
+							<a class="dropdown-item" href="#">History</a>
+							<a class="dropdown-item" href="#">Beautiful words</a>
+							<a class="dropdown-item" href="#">Illustrations and posters</a>
+							<a class="dropdown-item" href="#">Art</a>
+							<a class="dropdown-item" href="#">Outside</a>
+							<a class="dropdown-item" href="#">Holidays and events</a>
+							<a class="dropdown-item" href="#">Famous people</a>
+							<a class="dropdown-item" href="#">Photography</a>
+							<a class="dropdown-item" href="#">Product</a>
+							<a class="dropdown-item" href="#">DIY products and handicrafts</a>
+							<a class="dropdown-item" href="#">Health and Sports</a>
+						</div>
+						
+						<div class="dropdown-divider"></div>
+						<div class="smallfont2s">
+	    					<a class="p-2" href="#">Introduction</a>
+	    					<a class="p-2" href="#">Blog</a>
+	    					<a class="p-2" href="#">Enterprise</a>
+	    					<a class="p-2" href="#">Job</a>
+							<a class="p-2" href="#">Developers</a>
+							<a class="p-2" href="#">Removals</a>
+							<a class="p-2" href="#">Privacy</a>
+							<a class="p-2" href="#">Keywords</a>
+						</div>
+  					</div>
+				</li>
+				<li class="nav-item  px-2">
+					<a class="dropdown-toggle nav-link" href="#" id="dropdownLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<i class="fas fa-comment-alt fa-lg fa-fw muted"></i><span class="badge">3</span>
+					</a>
+					<div class="dropdown-menu p-2 dropdown-menu-right" style="width: 260px" role="menu" aria-labelledby="dropdownLink">
+						<div class="btn-group text-center" style="width:100%" data-toggle="buttons">
+  							<label class="btn btn-secondary active col">
+    							<input type="radio" name="options" id="option1" autocomplete="on" checked> Notification
+							</label>
+							<label class="btn btn-secondary col">
+							    <input type="radio" name="options" id="option2" autocomplete="on"> Mailbox
+							</label>
+						</div>
+					</div>
+				</li>
+				<li class="nav-item  px-2">
+					<a class="dropdown-toggle nav-link" href="#" id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<i class="fas fa-ellipsis-h fa-lg fa-fw muted"></i>
+					</a>
+					<div class="dropdown-menu p-2 dropdown-menu-right" role="menu" aria-labelledby="dropdownMenu">
+						<a class="dropdown-item " href="#">Setting</a>
+						
+						<div class="dropdown-divider"></div>
+						
+						<a class="dropdown-item " href="#">Help Center</a>
+						<a class="dropdown-item " href="#">Move to Enterprise</a>
+						<a class="dropdown-item " href="#">Privacy</a>
+
+						<div class="dropdown-divider"></div>
+
+						<a class="dropdown-item " href="#">Log out</a>
+					</div>
+				</li>
+			</ul>
+
+			
+		</div>
+		
+	</nav>
+
+
+	<nav class="navbar navbar-light navbar-expand border-bottom" style="z-index: 4" id="navbar2">
+		<div class="d-flex flex-row justify-content-between" style="width: 100%" >
+			<ul class="navbar-nav">
+				<li class="nav-item  "><a class="nav-link" href="webpage.html"><i class="fab fa-pinterest pinterest fa-lg"></i></a></li>
+				<li class="nav-item  ">
+					<a class="nav-link" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample"><i class="fas fa-search fa-lg muted"></i></a>
+				</li>
+				<li class="nav-item  active"><a class="nav-link" href="webpage.html"><strong>Home</strong></a></li>
+				<li class="nav-item text-center" style="width: 40px"><a class="nav-link" href="#">
+					<img class=" img-fluid rounded-circle" src="https://preview.ibb.co/bycPOm/IMG_7433.jpg" alt="IMG_7433" width="23" height="23">
+				</a></li>
+				<li class="nav-item  px-1">
+					<a class="dropdown-toggle nav-link" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<i class="fas fa-bars fa-lg fa-fw muted"></i>
+					</a>
+					<div class="dropdown-menu p-2 dropdown-menu-right" role="menu" aria-labelledby="dropdownMenuLink">
+	    				<div class="columns smallfont1s" style="width: 400px;">
+							<h6 class="dropdown-header ">Home Menu</h6>
+	    					<a class="dropdown-item " href="#">Common</a>
+	    					<a class="dropdown-item " href="#">Everything</a>
+	    					<a class="dropdown-item" href="#">Gift</a>
+	    					<a class="dropdown-item" href="#">Video</a>
+							<a class="dropdown-item" href="#">Technology</a>
+							<a class="dropdown-item" href="#">Travel</a>
+							<a class="dropdown-item" href="#">Education</a>
+							<a class="dropdown-item" href="#">Entertainment</a>
+							<a class="dropdown-item" href="#">Humor</a>
+							<a class="dropdown-item" href="#">Tattoo</a>
+							<a class="dropdown-item" href="#">Science and Nature</a>
+							<a class="dropdown-item" href="#">Architecture</a>
+							<a class="dropdown-item" href="#">Hairstyles and beauty</a>
+							<a class="dropdown-item" href="#">Hippies</a>
+							<a class="dropdown-item" href="#">Garden</a>
+							<a class="dropdown-item" href="#">History</a>
+							<a class="dropdown-item" href="#">Beautiful words</a>
+							<a class="dropdown-item" href="#">Illustrations and posters</a>
+							<a class="dropdown-item" href="#">Art</a>
+							<a class="dropdown-item" href="#">Outside</a>
+							<a class="dropdown-item" href="#">Holidays and events</a>
+							<a class="dropdown-item" href="#">Famous people</a>
+							<a class="dropdown-item" href="#">Photography</a>
+							<a class="dropdown-item" href="#">Product</a>
+							<a class="dropdown-item" href="#">DIY products and handicrafts</a>
+							<a class="dropdown-item" href="#">Health and Sports</a>
+						</div>
+						
+						<div class="dropdown-divider"></div>
+						<div class="smallfont2s">
+	    					<a class="p-2" href="#">Introduction</a>
+	    					<a class="p-2" href="#">Blog</a>
+	    					<a class="p-2" href="#">Enterprise</a>
+	    					<a class="p-2" href="#">Job</a>
+							<a class="p-2" href="#">Developers</a>
+							<a class="p-2" href="#">Removals</a>
+							<a class="p-2" href="#">Privacy</a>
+							<a class="p-2" href="#">Keywords</a>
+						</div>
+  					</div>
+				</li>
+				<li class="nav-item pr-2">
+					<a class="dropdown-toggle nav-link" href="#" id="dropdownLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<i class="fas fa-comment-alt fa-lg fa-fw muted"></i><span class="badge">3</span>
+					</a>
+					<div class="dropdown-menu p-2 dropdown-menu-right" style="width: 260px" role="menu" aria-labelledby="dropdownLink">
+						<div class="btn-group text-center" style="width:100%" data-toggle="buttons">
+  							<label class="btn btn-secondary active col">
+    							<input type="radio" name="options" id="option1" autocomplete="on" checked> Notification
+							</label>
+							<label class="btn btn-secondary col">
+							    <input type="radio" name="options" id="option2" autocomplete="on"> Mailbox
+							</label>
+						</div>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a class="dropdown-toggle nav-link" href="#" id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<i class="fas fa-ellipsis-h fa-lg fa-fw muted"></i>
+					</a>
+					<div class="dropdown-menu p-2 dropdown-menu-right" role="menu" aria-labelledby="dropdownMenu">
+						<a class="dropdown-item " href="#">Setting</a>
+						
+						<div class="dropdown-divider"></div>
+						
+						<a class="dropdown-item " href="#">Help Center</a>
+						<a class="dropdown-item " href="#">Move to Enterprise</a>
+						<a class="dropdown-item " href="#">Privacy</a>
+
+						<div class="dropdown-divider"></div>
+
+						<a class="dropdown-item " href="#">Log out</a>
+					</div>
+				</li>
+			</ul>		
+		</div>
+		<div class="collapse" id="collapseExample">
+  		<form class="form-inline rounded d-flex flex-row mx-1 px-3 my-2" id="searchbar-form">
+			<i class="fas fa-search fa-lg muted" id="searchicon"></i>
+			<input class="form-control" id="searchbar" type="text" name="search" placeholder="Search">
+		</form>
+	</div>
+	</nav>
+
+	
+
+	<div class="col-md-11 mt-2 mx-auto" >
+			<div class="card-columns" >
+				<div class="card p-2 pincard ">
+			      	<a style="text-decoration: none;color: #585858;" href="#">
+			      		<div class="pincard-header">
+			      			<div class="pin-button p-1 d-flex justify-content-between" style="width: 100%">
+			      				<div>
+			      					<a class="dropdown-toggle nav-link white-but2 white-but-icon rounded-circle p-2 m-1" href="#" id="less" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										<i class="fas fa-upload fa-lg fa-fw muted" style="color: #585858"></i>
+									</a>
+									<div class="dropdown-menu p-2 dropdown-menu-right" role="menu" aria-labelledby="less" id="lessmenu">
+										<a class="dropdown-item " href="#">Setting</a>
+										
+										<div class="dropdown-divider"></div>
+										<a class="dropdown-item " href="#">Help Center</a>
+										<a class="dropdown-item " href="#">Privacy</a>
+									</div>
+			      				</div>
+
+			      				<div class="ml-auto" >
+			      					<a class="nav-link red-but rounded p-2 m-1" href="#">
+										<i class="fas fa-thumbtack fa-lg fa-fw muted" style="color: #fff"></i>
+										Save
+									</a>
+			      				</div>
+						    </div>
+			      			<img class="card-img img-fluid" src="https://www.w3schools.com/w3images/nature.jpg" alt="Card image cap">
+			      			
+						</div>
+			      		
+			      		<div class="pincard-footer d-flex justify-content-between" style="width: 90%">
+			      			<p class="card-text p-1 col-11">fugit, sed quia</p>
+			      			<div>
+			      				<a class="dropdown-toggle nav-link col-1" href="#" id="more" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									<i class="fas fa-ellipsis-h fa-fw muted"></i>
+								</a>
+								<div class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="more" style="width: 200px; z-index: 3; position: absolute;">
+										<a class="dropdown-item " href="#"><i class="fas fa-times fa-fw"></i>Hide</a>
+										
+										<div class="dropdown-divider"></div>
+										
+										<a class="dropdown-item " href="#"><i class="fas fa-ban fa-fw"></i>Report</a>
+
+								</div>
+			      			</div>
+			      			
+			      		</div>
+			      	</a>
+			    </div>
+			</div>
+			<div class="card-columns" >
+				<div class="card p-2 pincard ">
+			      	<a style="text-decoration: none;color: #585858;" href="#">
+			      		<div class="pincard-header">
+			      			<div class="pin-button p-1 d-flex justify-content-between" style="width: 100%">
+			      				<div>
+			      					<a class="dropdown-toggle nav-link white-but2 white-but-icon rounded-circle p-2 m-1" href="#" id="less" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										<i class="fas fa-upload fa-lg fa-fw muted" style="color: #585858"></i>
+									</a>
+									<div class="dropdown-menu p-2 dropdown-menu-right" role="menu" aria-labelledby="less" id="lessmenu">
+										<a class="dropdown-item " href="#">Setting</a>
+										
+										<div class="dropdown-divider"></div>
+										<a class="dropdown-item " href="#">Help Center</a>
+										<a class="dropdown-item " href="#">Privacy</a>
+									</div>
+			      				</div>
+
+			      				<div class="ml-auto" >
+			      					<a class="nav-link red-but rounded p-2 m-1" href="#">
+										<i class="fas fa-thumbtack fa-lg fa-fw muted" style="color: #fff"></i>
+										Save
+									</a>
+			      				</div>
+						    </div>
+			      			<img class="card-img img-fluid" src="https://www.w3schools.com/w3images/cinqueterre.jpg" alt="Card image cap">
+			      			
+						</div>
+			      		
+			      		<div class="pincard-footer d-flex justify-content-between" style="width: 90%">
+			      			<p class="card-text p-1 col-11">fugit, sed quia</p>
+			      			<div>
+			      				<a class="dropdown-toggle nav-link col-1" href="#" id="more" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									<i class="fas fa-ellipsis-h fa-fw muted"></i>
+								</a>
+								<div class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="more" style="width: 200px; z-index: 3; position: absolute;">
+										<a class="dropdown-item " href="#"><i class="fas fa-times fa-fw"></i>Hide</a>
+										
+										<div class="dropdown-divider"></div>
+										
+										<a class="dropdown-item " href="#"><i class="fas fa-ban fa-fw"></i>Report</a>
+
+								</div>
+			      			</div>
+			      			
+			      		</div>
+			      	</a>
+			    </div>
+			</div>
+
+
+	</div>
+
+</body>
+</html>
